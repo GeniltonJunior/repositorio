@@ -5,4 +5,4 @@ def func(n):
         return n * func(n-1)
 
 
-print(func(4))
+print(func(6))
