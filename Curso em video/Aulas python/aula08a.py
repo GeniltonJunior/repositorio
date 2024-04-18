@@ -1,0 +1,5 @@
+from math import(sqrt,ceil,floor)
+num = int(input('Digite um numero: '))
+raiz = sqrt(num)
+print('A raiz de {} é igual a {:.3f}'.format(num, raiz))
+print('A raiz do numero {} arredondada para cima fica {}, e para baixo fica {}'.format(num , ceil(raiz),floor(raiz)))
