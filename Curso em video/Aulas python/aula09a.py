@@ -16,3 +16,4 @@ print(frase.replace('Python', 'Android')) #altera str antiga pela nova mas não 
 print('Python' in frase) #verifica se a unidade pedida esta dentro da str
 print(frase.find('Curso')) #mostra a posição que em que a unidade selecionada esta dentro da str
 print(frase.find('curso')) # devolve o valor de -1 se não existir a unidade selecionada dentro da str
+print(frase.split()) #separa frase em str menores
